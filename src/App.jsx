@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   House, UserRound, Code2, Layers3, GraduationCap, Mail,
-  Github, Instagram, ExternalLink, ArrowUpRight, Menu, X,
+  Github, Instagram, Linkedin, ExternalLink, ArrowUpRight, Menu, X,
   MapPin, BriefcaseBusiness, Sparkles
 } from 'lucide-react'
 
@@ -113,10 +113,22 @@ function App() {
               <button className="button-ghost" onClick={() => goTo('contact')}>Contact me</button>
             </div>
             <div className="hero-socials">
-              <a href="https://github.com/MuhammadRaffa29" target="_blank" rel="noreferrer" aria-label="GitHub"><Github /></a>
-              <a href="https://www.instagram.com/mraffale_/" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram /></a>
-              <a href="mailto:mraffa2905@gmail.com" aria-label="Email"><Mail /></a>
-            </div>
+  <a href="https://github.com/MuhammadRaffa29" target="_blank" rel="noreferrer" aria-label="GitHub">
+    <Github />
+  </a>
+
+  <a href="https://www.linkedin.com/in/muhammad-raffa-34648344b/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+    <Linkedin />
+  </a>
+
+  <a href="https://www.instagram.com/mraffale_/" target="_blank" rel="noreferrer" aria-label="Instagram">
+    <Instagram />
+  </a>
+
+  <a href="mailto:mraffa2905@gmail.com" aria-label="Email">
+    <Mail />
+  </a>
+</div>
           </div>
           <div className="hero-visual">
             <div className="portrait-glow" />
@@ -209,10 +221,42 @@ function App() {
               <p>I’m always open to learning, sharing ideas, and connecting with others.</p>
             </div>
             <div className="contact-links">
-              <a href="mailto:mraffa2905@gmail.com"><Mail /><span><small>EMAIL</small>mraffa2905@gmail.com</span><ExternalLink /></a>
-              <a href="https://www.instagram.com/mraffale_/" target="_blank" rel="noreferrer"><Instagram /><span><small>INSTAGRAM</small>@mraffale_</span><ExternalLink /></a>
-              <a href="https://github.com/MuhammadRaffa29" target="_blank" rel="noreferrer"><Github /><span><small>GITHUB</small>MuhammadRaffa29</span><ExternalLink /></a>
-            </div>
+  <a href="mailto:mraffa2905@gmail.com">
+    <Mail />
+    <span>
+      <small>EMAIL</small>
+      mraffa2905@gmail.com
+    </span>
+    <ExternalLink />
+  </a>
+
+  <a href="https://www.linkedin.com/in/muhammad-raffa-34648344b/" target="_blank" rel="noreferrer">
+    <Linkedin />
+    <span>
+      <small>LINKEDIN</small>
+      Muhammad Raffa
+    </span>
+    <ExternalLink />
+  </a>
+
+  <a href="https://www.instagram.com/mraffale_/" target="_blank" rel="noreferrer">
+    <Instagram />
+    <span>
+      <small>INSTAGRAM</small>
+      @mraffale_
+    </span>
+    <ExternalLink />
+  </a>
+
+  <a href="https://github.com/MuhammadRaffa29" target="_blank" rel="noreferrer">
+    <Github />
+    <span>
+      <small>GITHUB</small>
+      MuhammadRaffa29
+    </span>
+    <ExternalLink />
+  </a>
+</div>
           </div>
         </section>
       </main>
